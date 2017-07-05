@@ -1,0 +1,6 @@
+framework module KFXPhotoPickerManager {
+  umbrella header "KFXPhotoPickerManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

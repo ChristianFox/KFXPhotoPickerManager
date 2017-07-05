@@ -1,0 +1,22 @@
+{
+  "name": "KFXPhotoPickerManager",
+  "version": "0.1.0",
+  "summary": "KFXPhotoPickerManager for iOS",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://kfxtech@bitbucket.org/kfxteam/kfxphotopickermanager.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ChristianFox": "christianfox890@icloud.com"
+  },
+  "source": {
+    "git": "https://kfxtech@bitbucket.org/kfxteam/kfxphotopickermanager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KFXPhotoPickerManager/Classes/**/*"
+}

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0F76058389F88DBFBFF42528 /* Pods_KFXPhotoPickerManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772E7241664E760ABBCAAFEA /* Pods_KFXPhotoPickerManager_Example.framework */; };
 		4FB69D6B090C19AE4F2CC3D7 /* Pods_KFXPhotoPickerManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52140D11C2946C83CA623DB2 /* Pods_KFXPhotoPickerManager_Tests.framework */; };
+		5B06BF6E1F0CCC9700042955 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B06BF6C1F0CCC9700042955 /* CHANGELOG.md */; };
+		5B06BF6F1F0CCC9700042955 /* NOTES.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B06BF6D1F0CCC9700042955 /* NOTES.md */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +41,8 @@
 /* Begin PBXFileReference section */
 		124830201419F20E449572E7 /* Pods-KFXPhotoPickerManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFXPhotoPickerManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFXPhotoPickerManager_Tests/Pods-KFXPhotoPickerManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		52140D11C2946C83CA623DB2 /* Pods_KFXPhotoPickerManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFXPhotoPickerManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B06BF6C1F0CCC9700042955 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		5B06BF6D1F0CCC9700042955 /* NOTES.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = NOTES.md; sourceTree = "<group>"; };
 		5CBAA6FD85A7EE02302A50B9 /* Pods-KFXPhotoPickerManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFXPhotoPickerManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFXPhotoPickerManager_Example/Pods-KFXPhotoPickerManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KFXPhotoPickerManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFXPhotoPickerManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +68,9 @@
 		772E7241664E760ABBCAAFEA /* Pods_KFXPhotoPickerManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFXPhotoPickerManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82442AA3EFDB0093FE4142E8 /* Pods-KFXPhotoPickerManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFXPhotoPickerManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFXPhotoPickerManager_Tests/Pods-KFXPhotoPickerManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A2042E24649A9E9A4E2DB7DA /* KFXPhotoPickerManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KFXPhotoPickerManager.podspec; path = ../KFXPhotoPickerManager.podspec; sourceTree = "<group>"; };
-		DA95CC2B9AEA5ACF727878DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DA98E668D1A1F923A66783B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A2042E24649A9E9A4E2DB7DA /* KFXPhotoPickerManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KFXPhotoPickerManager.podspec; path = ../KFXPhotoPickerManager.podspec; sourceTree = "<group>"; };
+		DA95CC2B9AEA5ACF727878DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DA98E668D1A1F923A66783B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,8 @@
 			children = (
 				A2042E24649A9E9A4E2DB7DA /* KFXPhotoPickerManager.podspec */,
 				DA98E668D1A1F923A66783B0 /* README.md */,
+				5B06BF6C1F0CCC9700042955 /* CHANGELOG.md */,
+				5B06BF6D1F0CCC9700042955 /* NOTES.md */,
 				DA95CC2B9AEA5ACF727878DE /* LICENSE */,
 			);
 			name = "Podspec Metadata";
@@ -204,6 +210,7 @@
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "KFXPhotoPickerManager_Example" */;
 			buildPhases = (
 				9B126290B5FA4B9666E7BCDA /* [CP] Check Pods Manifest.lock */,
+				5B06BF6B1F0CCC7400042955 /* Run Script - Increment Build No. */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
@@ -250,6 +257,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ChristianFox;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 94Z3AYT2U7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -327,6 +337,20 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KFXPhotoPickerManager_Example/Pods-KFXPhotoPickerManager_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5B06BF6B1F0CCC7400042955 /* Run Script - Increment Build No. */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Increment Build No.";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n";
+		};
 		6E9D69C4E8D3734FF5621F43 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,8 +419,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* DEMOAppDelegate.m in Sources */,
+				5B06BF6F1F0CCC9700042955 /* NOTES.md in Sources */,
 				6003F5A7195388D20070C39A /* DEMOViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				5B06BF6E1F0CCC9700042955 /* CHANGELOG.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +550,7 @@
 			baseConfigurationReference = 5CBAA6FD85A7EE02302A50B9 /* Pods-KFXPhotoPickerManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94Z3AYT2U7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KFXPhotoPickerManager/KFXPhotoPickerManager-Prefix.pch";
 				INFOPLIST_FILE = "KFXPhotoPickerManager/KFXPhotoPickerManager-Info.plist";
@@ -539,6 +566,7 @@
 			baseConfigurationReference = 6F1659279DDFE9FD7F9A0F35 /* Pods-KFXPhotoPickerManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94Z3AYT2U7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KFXPhotoPickerManager/KFXPhotoPickerManager-Prefix.pch";
 				INFOPLIST_FILE = "KFXPhotoPickerManager/KFXPhotoPickerManager-Info.plist";
