@@ -1,17 +1,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KFXPhotoPickerManager'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0.0'
   s.summary          = 'KFXPhotoPickerManager for iOS'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+KFXPhotoPickerManager present the photo picker/camera
                        DESC
 
-  s.homepage         = 'https://kfxtech@bitbucket.org/kfxteam/kfxphotopickermanager.git'
+  s.homepage         = 'https://kfxtech@bitbucket.org/kfx_pods/kfxphotopickermanager.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ChristianFox' => 'christianfox890@icloud.com' }
-  s.source           = { :git => 'https://kfxtech@bitbucket.org/kfxteam/kfxphotopickermanager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://kfxtech@bitbucket.org/kfx_pods/kfxphotopickermanager.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
