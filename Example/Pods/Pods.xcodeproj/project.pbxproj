@@ -7,157 +7,172 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F0B2A88213FFEF55DC01CBB6347ABFE /* Pods-KFXPhotoPickerManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 357BCF074C5A4CADC62F13D5839A42A4 /* Pods-KFXPhotoPickerManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19877B55DF6D2F1AD2DD74B44D6221A4 /* Pods-KFXPhotoPickerManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D4E1BBCFD04873B433D6E09F914BA /* Pods-KFXPhotoPickerManager_Example-dummy.m */; };
-		20372F0D001CD30882D006472525D84B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		558AC14AB478286623801F3AECB54D42 /* KFXPhotoPickerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3292D358C6DCECE8D0BFFD099F364D9E /* KFXPhotoPickerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B01E8D4FC89CF98EA190D8C8AD730F0 /* KFXPhotoPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56001115C89BBF7571ECEEE632681B5E /* KFXPhotoPickerManager.m */; };
-		8D9F1A854A0F2DC8BB1D03FA82C8F11B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		932DE72F494D7443C3F80CC0D95FC0A7 /* Pods-KFXPhotoPickerManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A854376162FB731C3753C5A07D0B42 /* Pods-KFXPhotoPickerManager_Tests-dummy.m */; };
-		991CA7B9EAF47144CC6DD569DC8E2D7B /* KFXPhotoPickerManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E32B4EAED0FBDC2685C5D1609B058134 /* KFXPhotoPickerManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE721429345ACE116FE1E30EC8DD6942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EA91710D6E66A34783062953E3E6A683 /* KFXPhotoPickerManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E61F2F97982B0CE47DA35DA5A84F9C /* KFXPhotoPickerManager-dummy.m */; };
-		FD42423B50807ADF1FCE5D05F5F2DE0E /* Pods-KFXPhotoPickerManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4D542657C615443DCF408DC03F0C52 /* Pods-KFXPhotoPickerManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		106499B220366202BDC7B73D9BBF1854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		189DE3B7412308EDDB2F6B5946435CE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3B97758EA4C9C5EAECF8CB119FAB1A78 /* KFXPhotoPickerManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 858BF1C4E597E1568E2E0AB1600C6EDA /* KFXPhotoPickerManager-dummy.m */; };
+		75F5B0CAC0E83FA9FEA6265528FB5E0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		787C28FAACB655A02185E21CF5C1A7C1 /* Pods-KFXPhotoPickerManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E69FF010FC46002DAD8E647BD23473E8 /* Pods-KFXPhotoPickerManager_Example-dummy.m */; };
+		B7981B25BA768A71CE04DC1D67041878 /* Pods-KFXPhotoPickerManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 331E016B885759BA3A7AB3F9C6D88B34 /* Pods-KFXPhotoPickerManager_Tests-dummy.m */; };
+		E2457348E496FAA2A4FC20765076AC51 /* KFXPhotoPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE26349B011CA138AD0226BC46B7450 /* KFXPhotoPickerManager.m */; };
+		E91557755602A04F54BE6AB633A3C665 /* KFXPhotoPickerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE2E8D5943594F0A5A45E220F5B0A3C /* KFXPhotoPickerManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A7D15E072C0A806ECF8916E000580C09 /* PBXContainerItemProxy */ = {
+		8371BD2552296C7543C50454263B60DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 27324FF4F95852010A9D31E2208411A2;
+			remoteGlobalIDString = 21779ECF8D4E3755FE80F2FB5F74862B;
 			remoteInfo = KFXPhotoPickerManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0697395747241266B1A97A77AB2C4EA6 /* Pods-KFXPhotoPickerManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KFXPhotoPickerManager_Example.modulemap"; sourceTree = "<group>"; };
-		1FC82B9BAF24EF51F65F11DCC6B90690 /* Pods_KFXPhotoPickerManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KFXPhotoPickerManager_Tests.framework; path = "Pods-KFXPhotoPickerManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22B3EDCA115AFA1533124A2EFD221410 /* Pods-KFXPhotoPickerManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFXPhotoPickerManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		25138D96209C0515FE2A3F51E74102FB /* Pods-KFXPhotoPickerManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFXPhotoPickerManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		271FDE4E66ADE7A67C2FD345D5873E12 /* Pods-KFXPhotoPickerManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFXPhotoPickerManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3292D358C6DCECE8D0BFFD099F364D9E /* KFXPhotoPickerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KFXPhotoPickerManager.h; sourceTree = "<group>"; };
-		357BCF074C5A4CADC62F13D5839A42A4 /* Pods-KFXPhotoPickerManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFXPhotoPickerManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4524607F4AD10C2FE660854BF3D38CF1 /* Pods-KFXPhotoPickerManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFXPhotoPickerManager_Example-resources.sh"; sourceTree = "<group>"; };
-		496F776E2A8AC54D460FE2B31C24B5EC /* Pods-KFXPhotoPickerManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFXPhotoPickerManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		50D2DA75FAC113196261A5E39F7C5C0B /* KFXPhotoPickerManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFXPhotoPickerManager.xcconfig; sourceTree = "<group>"; };
-		56001115C89BBF7571ECEEE632681B5E /* KFXPhotoPickerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KFXPhotoPickerManager.m; sourceTree = "<group>"; };
-		5A3A0DBEA164790627FA2202051D5E40 /* KFXPhotoPickerManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KFXPhotoPickerManager.modulemap; sourceTree = "<group>"; };
-		62168CBEA0129C6EA174EB1A7774B6FC /* KFXPhotoPickerManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KFXPhotoPickerManager.framework; path = KFXPhotoPickerManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BDC35A34C87D9E4B5A5D24A36B6E13 /* Pods-KFXPhotoPickerManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFXPhotoPickerManager_Example-resources.sh"; sourceTree = "<group>"; };
+		01D67E338061C21B164E7801F3D24742 /* Pods-KFXPhotoPickerManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFXPhotoPickerManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		162EFCD3D19162F2E2BA000228394C29 /* KFXPhotoPickerManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFXPhotoPickerManager-prefix.pch"; sourceTree = "<group>"; };
+		24A8763FDEE6AA9C13A225B7A60220D9 /* Pods-KFXPhotoPickerManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFXPhotoPickerManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		25FA3C4AB0322CAE5385745267A013AA /* Pods-KFXPhotoPickerManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFXPhotoPickerManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		331E016B885759BA3A7AB3F9C6D88B34 /* Pods-KFXPhotoPickerManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFXPhotoPickerManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		58E6659E011D8A4C5EA23F0C152A1258 /* KFXPhotoPickerManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KFXPhotoPickerManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5EE26349B011CA138AD0226BC46B7450 /* KFXPhotoPickerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KFXPhotoPickerManager.m; path = KFXPhotoPickerManager/Classes/KFXPhotoPickerManager.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66C66EABD9CE74BA99473BBEF5B7D681 /* Pods_KFXPhotoPickerManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KFXPhotoPickerManager_Example.framework; path = "Pods-KFXPhotoPickerManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A0F7D7C4667B81F43E5E7C7386A0C1D /* KFXPhotoPickerManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFXPhotoPickerManager-prefix.pch"; sourceTree = "<group>"; };
-		6D53EC2E48EF64DEE76A24572270DA68 /* Pods-KFXPhotoPickerManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFXPhotoPickerManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7F54EE131C52D4364B35D0363E6E5F18 /* Pods-KFXPhotoPickerManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KFXPhotoPickerManager_Tests.modulemap"; sourceTree = "<group>"; };
-		87D505440ACE45A5B2C50184F903A601 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92E61F2F97982B0CE47DA35DA5A84F9C /* KFXPhotoPickerManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KFXPhotoPickerManager-dummy.m"; sourceTree = "<group>"; };
+		6BDA6066C5ACD1560A39097A38ECEA7A /* Pods-KFXPhotoPickerManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFXPhotoPickerManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		79A3068F54F1EDA7F13A15C3A918313C /* KFXPhotoPickerManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFXPhotoPickerManager.xcconfig; sourceTree = "<group>"; };
+		858BF1C4E597E1568E2E0AB1600C6EDA /* KFXPhotoPickerManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KFXPhotoPickerManager-dummy.m"; sourceTree = "<group>"; };
+		8B4BD6BF37DC1E986174A965E6B91260 /* Pods-KFXPhotoPickerManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFXPhotoPickerManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8DA7D315C1ADAC63766667F6C4A71F38 /* Pods-KFXPhotoPickerManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFXPhotoPickerManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		970B5A2EB3A44057265ABAD0515C90E1 /* Pods-KFXPhotoPickerManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFXPhotoPickerManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9F7B048A2780E0B76277568250D59819 /* Pods-KFXPhotoPickerManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFXPhotoPickerManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B61D4E1BBCFD04873B433D6E09F914BA /* Pods-KFXPhotoPickerManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFXPhotoPickerManager_Example-dummy.m"; sourceTree = "<group>"; };
-		BC4D542657C615443DCF408DC03F0C52 /* Pods-KFXPhotoPickerManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFXPhotoPickerManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		CFC44ECE24F349542AD4A8F6EE6E52C7 /* Pods-KFXPhotoPickerManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFXPhotoPickerManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		D7A854376162FB731C3753C5A07D0B42 /* Pods-KFXPhotoPickerManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFXPhotoPickerManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		DB321B1CCA305CFFF039E9F3459C883A /* Pods-KFXPhotoPickerManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFXPhotoPickerManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DBAE83D2C3BABEC923928EC2E3CA711E /* Pods-KFXPhotoPickerManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFXPhotoPickerManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DFB6138F2ED3B602CE017D36D62046A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFF5B3162680622DC06968DA07ED63AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E32B4EAED0FBDC2685C5D1609B058134 /* KFXPhotoPickerManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFXPhotoPickerManager-umbrella.h"; sourceTree = "<group>"; };
-		ED1D639A0B63B740E962D9B1A561C8E2 /* Pods-KFXPhotoPickerManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFXPhotoPickerManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9452F77BD39BB4CB7FB9E28B0AD743B7 /* Pods-KFXPhotoPickerManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFXPhotoPickerManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		9FE2E8D5943594F0A5A45E220F5B0A3C /* KFXPhotoPickerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFXPhotoPickerManager.h; path = KFXPhotoPickerManager/Classes/KFXPhotoPickerManager.h; sourceTree = "<group>"; };
+		A80B365DCEDBA395563681CA6D07963E /* Pods-KFXPhotoPickerManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFXPhotoPickerManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B355D9526DA73C8896ADAF77EAB47817 /* Pods-KFXPhotoPickerManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFXPhotoPickerManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B4A02D6A9D65D088862CE777786D635D /* Pods-KFXPhotoPickerManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFXPhotoPickerManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA2A8B4A55F3E0AA8789294CD7842859 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CE4DDB19EE9CFCE4A9C26B78BC863033 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D9D1E589AAA87EB91FB4B310B7107037 /* libPods-KFXPhotoPickerManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KFXPhotoPickerManager_Example.a"; path = "libPods-KFXPhotoPickerManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69FF010FC46002DAD8E647BD23473E8 /* Pods-KFXPhotoPickerManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFXPhotoPickerManager_Example-dummy.m"; sourceTree = "<group>"; };
+		E9AA1B5A33C7E5460A7B4788A045E084 /* libPods-KFXPhotoPickerManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KFXPhotoPickerManager_Tests.a"; path = "libPods-KFXPhotoPickerManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01BBEC7BA388F5547E552BE0D092AAF /* libKFXPhotoPickerManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKFXPhotoPickerManager.a; path = libKFXPhotoPickerManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BBE646E508A7E4019BE85CDB9C7F06 /* Pods-KFXPhotoPickerManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFXPhotoPickerManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04A53B5A74D1C717BDD4D83C2A83BB16 /* Frameworks */ = {
+		9469DA09BF05FEFACE3F1364CA140D93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE721429345ACE116FE1E30EC8DD6942 /* Foundation.framework in Frameworks */,
+				106499B220366202BDC7B73D9BBF1854 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		931C35935F5EC55B141DD9FF7288FD17 /* Frameworks */ = {
+		A245765E5942503BCD3FDDEABCAFB55D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D9F1A854A0F2DC8BB1D03FA82C8F11B /* Foundation.framework in Frameworks */,
+				75F5B0CAC0E83FA9FEA6265528FB5E0E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		951201A824B0EF8A777CC624B4526FF1 /* Frameworks */ = {
+		F4E492E38426F8CB893FC8197C52BF33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20372F0D001CD30882D006472525D84B /* Foundation.framework in Frameworks */,
+				189DE3B7412308EDDB2F6B5946435CE5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7DB346D0F39D3F0E887471402A8071AB = {
+		0B4B34842D5FD869C5E22D68F84731B6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E036EA150774A2CC178F6EF7089A6526 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D800C37A988002AB841146D29633D600 /* Products */,
-				F77BC51AEB7740261C696C16DF175271 /* Targets Support Files */,
+				7C4DB6D978E53A9F42DEBDBD70C7925E /* Pods-KFXPhotoPickerManager_Example */,
+				2C834DB586A55F4C6F51A4105921B42E /* Pods-KFXPhotoPickerManager_Tests */,
 			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		909B15C065251CBA7C7AC5F04D0EA0FF /* Pods-KFXPhotoPickerManager_Example */ = {
+		17C9D90E730C68DF8F7AE8CEA65C3A34 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DFF5B3162680622DC06968DA07ED63AC /* Info.plist */,
-				0697395747241266B1A97A77AB2C4EA6 /* Pods-KFXPhotoPickerManager_Example.modulemap */,
-				271FDE4E66ADE7A67C2FD345D5873E12 /* Pods-KFXPhotoPickerManager_Example-acknowledgements.markdown */,
-				25138D96209C0515FE2A3F51E74102FB /* Pods-KFXPhotoPickerManager_Example-acknowledgements.plist */,
-				B61D4E1BBCFD04873B433D6E09F914BA /* Pods-KFXPhotoPickerManager_Example-dummy.m */,
-				6D53EC2E48EF64DEE76A24572270DA68 /* Pods-KFXPhotoPickerManager_Example-frameworks.sh */,
-				4524607F4AD10C2FE660854BF3D38CF1 /* Pods-KFXPhotoPickerManager_Example-resources.sh */,
-				BC4D542657C615443DCF408DC03F0C52 /* Pods-KFXPhotoPickerManager_Example-umbrella.h */,
-				ED1D639A0B63B740E962D9B1A561C8E2 /* Pods-KFXPhotoPickerManager_Example.debug.xcconfig */,
-				496F776E2A8AC54D460FE2B31C24B5EC /* Pods-KFXPhotoPickerManager_Example.release.xcconfig */,
+				225927B6CCCD552589277F162E4E54A1 /* KFXPhotoPickerManager */,
 			);
-			name = "Pods-KFXPhotoPickerManager_Example";
-			path = "Target Support Files/Pods-KFXPhotoPickerManager_Example";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		91818A0674F864D5D97B0C4270F21D45 /* KFXPhotoPickerManager */ = {
+		225927B6CCCD552589277F162E4E54A1 /* KFXPhotoPickerManager */ = {
 			isa = PBXGroup;
 			children = (
-				A583D3C02FA2B69F6C9554B6CC89C49B /* Classes */,
+				9FE2E8D5943594F0A5A45E220F5B0A3C /* KFXPhotoPickerManager.h */,
+				5EE26349B011CA138AD0226BC46B7450 /* KFXPhotoPickerManager.m */,
+				80C0D653454A4B66861C62805886E7A8 /* Pod */,
+				C321382FF1A15C06856BEF21F1F2FB65 /* Support Files */,
 			);
 			name = KFXPhotoPickerManager;
-			path = KFXPhotoPickerManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		A06864107A64BC3AA17E3773B327D275 /* Pods-KFXPhotoPickerManager_Tests */ = {
+		2C834DB586A55F4C6F51A4105921B42E /* Pods-KFXPhotoPickerManager_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DFB6138F2ED3B602CE017D36D62046A0 /* Info.plist */,
-				7F54EE131C52D4364B35D0363E6E5F18 /* Pods-KFXPhotoPickerManager_Tests.modulemap */,
-				970B5A2EB3A44057265ABAD0515C90E1 /* Pods-KFXPhotoPickerManager_Tests-acknowledgements.markdown */,
-				DBAE83D2C3BABEC923928EC2E3CA711E /* Pods-KFXPhotoPickerManager_Tests-acknowledgements.plist */,
-				D7A854376162FB731C3753C5A07D0B42 /* Pods-KFXPhotoPickerManager_Tests-dummy.m */,
-				9F7B048A2780E0B76277568250D59819 /* Pods-KFXPhotoPickerManager_Tests-frameworks.sh */,
-				CFC44ECE24F349542AD4A8F6EE6E52C7 /* Pods-KFXPhotoPickerManager_Tests-resources.sh */,
-				357BCF074C5A4CADC62F13D5839A42A4 /* Pods-KFXPhotoPickerManager_Tests-umbrella.h */,
-				DB321B1CCA305CFFF039E9F3459C883A /* Pods-KFXPhotoPickerManager_Tests.debug.xcconfig */,
-				22B3EDCA115AFA1533124A2EFD221410 /* Pods-KFXPhotoPickerManager_Tests.release.xcconfig */,
+				B4A02D6A9D65D088862CE777786D635D /* Pods-KFXPhotoPickerManager_Tests-acknowledgements.markdown */,
+				6BDA6066C5ACD1560A39097A38ECEA7A /* Pods-KFXPhotoPickerManager_Tests-acknowledgements.plist */,
+				331E016B885759BA3A7AB3F9C6D88B34 /* Pods-KFXPhotoPickerManager_Tests-dummy.m */,
+				B355D9526DA73C8896ADAF77EAB47817 /* Pods-KFXPhotoPickerManager_Tests-frameworks.sh */,
+				9452F77BD39BB4CB7FB9E28B0AD743B7 /* Pods-KFXPhotoPickerManager_Tests-resources.sh */,
+				24A8763FDEE6AA9C13A225B7A60220D9 /* Pods-KFXPhotoPickerManager_Tests.debug.xcconfig */,
+				F3BBE646E508A7E4019BE85CDB9C7F06 /* Pods-KFXPhotoPickerManager_Tests.release.xcconfig */,
 			);
 			name = "Pods-KFXPhotoPickerManager_Tests";
 			path = "Target Support Files/Pods-KFXPhotoPickerManager_Tests";
 			sourceTree = "<group>";
 		};
-		A583D3C02FA2B69F6C9554B6CC89C49B /* Classes */ = {
+		6154099FB329DAFAD0C24895F6BE667C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3292D358C6DCECE8D0BFFD099F364D9E /* KFXPhotoPickerManager.h */,
-				56001115C89BBF7571ECEEE632681B5E /* KFXPhotoPickerManager.m */,
+				F01BBEC7BA388F5547E552BE0D092AAF /* libKFXPhotoPickerManager.a */,
+				D9D1E589AAA87EB91FB4B310B7107037 /* libPods-KFXPhotoPickerManager_Example.a */,
+				E9AA1B5A33C7E5460A7B4788A045E084 /* libPods-KFXPhotoPickerManager_Tests.a */,
 			);
-			name = Classes;
-			path = Classes;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C4DB6D978E53A9F42DEBDBD70C7925E /* Pods-KFXPhotoPickerManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				01D67E338061C21B164E7801F3D24742 /* Pods-KFXPhotoPickerManager_Example-acknowledgements.markdown */,
+				A80B365DCEDBA395563681CA6D07963E /* Pods-KFXPhotoPickerManager_Example-acknowledgements.plist */,
+				E69FF010FC46002DAD8E647BD23473E8 /* Pods-KFXPhotoPickerManager_Example-dummy.m */,
+				8B4BD6BF37DC1E986174A965E6B91260 /* Pods-KFXPhotoPickerManager_Example-frameworks.sh */,
+				01BDC35A34C87D9E4B5A5D24A36B6E13 /* Pods-KFXPhotoPickerManager_Example-resources.sh */,
+				25FA3C4AB0322CAE5385745267A013AA /* Pods-KFXPhotoPickerManager_Example.debug.xcconfig */,
+				8DA7D315C1ADAC63766667F6C4A71F38 /* Pods-KFXPhotoPickerManager_Example.release.xcconfig */,
+			);
+			name = "Pods-KFXPhotoPickerManager_Example";
+			path = "Target Support Files/Pods-KFXPhotoPickerManager_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				17C9D90E730C68DF8F7AE8CEA65C3A34 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6154099FB329DAFAD0C24895F6BE667C /* Products */,
+				0B4B34842D5FD869C5E22D68F84731B6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80C0D653454A4B66861C62805886E7A8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				58E6659E011D8A4C5EA23F0C152A1258 /* KFXPhotoPickerManager.podspec */,
+				CA2A8B4A55F3E0AA8789294CD7842859 /* LICENSE */,
+				CE4DDB19EE9CFCE4A9C26B78BC863033 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -168,15 +183,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C039779F8E285A88E9D07761B6F7DA0B /* Support Files */ = {
+		C321382FF1A15C06856BEF21F1F2FB65 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				87D505440ACE45A5B2C50184F903A601 /* Info.plist */,
-				5A3A0DBEA164790627FA2202051D5E40 /* KFXPhotoPickerManager.modulemap */,
-				50D2DA75FAC113196261A5E39F7C5C0B /* KFXPhotoPickerManager.xcconfig */,
-				92E61F2F97982B0CE47DA35DA5A84F9C /* KFXPhotoPickerManager-dummy.m */,
-				6A0F7D7C4667B81F43E5E7C7386A0C1D /* KFXPhotoPickerManager-prefix.pch */,
-				E32B4EAED0FBDC2685C5D1609B058134 /* KFXPhotoPickerManager-umbrella.h */,
+				79A3068F54F1EDA7F13A15C3A918313C /* KFXPhotoPickerManager.xcconfig */,
+				858BF1C4E597E1568E2E0AB1600C6EDA /* KFXPhotoPickerManager-dummy.m */,
+				162EFCD3D19162F2E2BA000228394C29 /* KFXPhotoPickerManager-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/KFXPhotoPickerManager";
@@ -190,99 +202,44 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D800C37A988002AB841146D29633D600 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				62168CBEA0129C6EA174EB1A7774B6FC /* KFXPhotoPickerManager.framework */,
-				66C66EABD9CE74BA99473BBEF5B7D681 /* Pods_KFXPhotoPickerManager_Example.framework */,
-				1FC82B9BAF24EF51F65F11DCC6B90690 /* Pods_KFXPhotoPickerManager_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E036EA150774A2CC178F6EF7089A6526 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FF6FB209F7B9AC8709CAF3038C1AB006 /* KFXPhotoPickerManager */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F77BC51AEB7740261C696C16DF175271 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				909B15C065251CBA7C7AC5F04D0EA0FF /* Pods-KFXPhotoPickerManager_Example */,
-				A06864107A64BC3AA17E3773B327D275 /* Pods-KFXPhotoPickerManager_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FF6FB209F7B9AC8709CAF3038C1AB006 /* KFXPhotoPickerManager */ = {
-			isa = PBXGroup;
-			children = (
-				91818A0674F864D5D97B0C4270F21D45 /* KFXPhotoPickerManager */,
-				C039779F8E285A88E9D07761B6F7DA0B /* Support Files */,
-			);
-			name = KFXPhotoPickerManager;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		012BA85CB0354713EDC21DAEBBC8D096 /* Headers */ = {
+		0F6383D5D71829F5F90FCC26F37AADD4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD42423B50807ADF1FCE5D05F5F2DE0E /* Pods-KFXPhotoPickerManager_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B1C3828B249B0B84DA0F8FBE18B5D08 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				991CA7B9EAF47144CC6DD569DC8E2D7B /* KFXPhotoPickerManager-umbrella.h in Headers */,
-				558AC14AB478286623801F3AECB54D42 /* KFXPhotoPickerManager.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6C757F7AE548F38658499B679EB8B571 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F0B2A88213FFEF55DC01CBB6347ABFE /* Pods-KFXPhotoPickerManager_Tests-umbrella.h in Headers */,
+				E91557755602A04F54BE6AB633A3C665 /* KFXPhotoPickerManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		20FD04621F9EDA5B6B8A1195DFB0B8CC /* Pods-KFXPhotoPickerManager_Example */ = {
+		0B1E054D508DC5A9E11313313E1CBF77 /* Pods-KFXPhotoPickerManager_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDCF5AB63E202F8AB5E88AEE021DC08C /* Build configuration list for PBXNativeTarget "Pods-KFXPhotoPickerManager_Example" */;
+			buildConfigurationList = 6886341BB582A74003399E94399C5B62 /* Build configuration list for PBXNativeTarget "Pods-KFXPhotoPickerManager_Example" */;
 			buildPhases = (
-				59AD34F7C272BE08656855C148C2EF8C /* Sources */,
-				931C35935F5EC55B141DD9FF7288FD17 /* Frameworks */,
-				012BA85CB0354713EDC21DAEBBC8D096 /* Headers */,
+				44AE17F2C7CB7AAC20F834F731A79D5A /* Sources */,
+				A245765E5942503BCD3FDDEABCAFB55D /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4240DB25A3AC6C7C16228BA25CBB1B70 /* PBXTargetDependency */,
+				74591C402A472D92B93ED077E9D18656 /* PBXTargetDependency */,
 			);
 			name = "Pods-KFXPhotoPickerManager_Example";
 			productName = "Pods-KFXPhotoPickerManager_Example";
-			productReference = 66C66EABD9CE74BA99473BBEF5B7D681 /* Pods_KFXPhotoPickerManager_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = D9D1E589AAA87EB91FB4B310B7107037 /* libPods-KFXPhotoPickerManager_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		27324FF4F95852010A9D31E2208411A2 /* KFXPhotoPickerManager */ = {
+		21779ECF8D4E3755FE80F2FB5F74862B /* KFXPhotoPickerManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F013C5398A4737D5B3441CDF02CD7BBD /* Build configuration list for PBXNativeTarget "KFXPhotoPickerManager" */;
+			buildConfigurationList = 90C5EF058DE9E1F9EE00BBBE3317A15F /* Build configuration list for PBXNativeTarget "KFXPhotoPickerManager" */;
 			buildPhases = (
-				C2F017AF57EF1725A19D9A5E9E607FFA /* Sources */,
-				04A53B5A74D1C717BDD4D83C2A83BB16 /* Frameworks */,
-				3B1C3828B249B0B84DA0F8FBE18B5D08 /* Headers */,
+				B868F51A4482DF93EE1AA324A1DF766C /* Sources */,
+				9469DA09BF05FEFACE3F1364CA140D93 /* Frameworks */,
+				0F6383D5D71829F5F90FCC26F37AADD4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -290,16 +247,15 @@
 			);
 			name = KFXPhotoPickerManager;
 			productName = KFXPhotoPickerManager;
-			productReference = 62168CBEA0129C6EA174EB1A7774B6FC /* KFXPhotoPickerManager.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = F01BBEC7BA388F5547E552BE0D092AAF /* libKFXPhotoPickerManager.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		B76349688578CF5A507A119A7633B3A6 /* Pods-KFXPhotoPickerManager_Tests */ = {
+		C44747D65E1DCE100AA58569CACAD202 /* Pods-KFXPhotoPickerManager_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 805A3EFDF6A166C4EC271DDDAA64224A /* Build configuration list for PBXNativeTarget "Pods-KFXPhotoPickerManager_Tests" */;
+			buildConfigurationList = BF137B1E6CCCC0AB3C58702B3793A01B /* Build configuration list for PBXNativeTarget "Pods-KFXPhotoPickerManager_Tests" */;
 			buildPhases = (
-				A46E83813C10FF6526A202CE42363DFB /* Sources */,
-				951201A824B0EF8A777CC624B4526FF1 /* Frameworks */,
-				6C757F7AE548F38658499B679EB8B571 /* Headers */,
+				75DA2321E4CE5B0DFB97210B098E9EEE /* Sources */,
+				F4E492E38426F8CB893FC8197C52BF33 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,8 +263,8 @@
 			);
 			name = "Pods-KFXPhotoPickerManager_Tests";
 			productName = "Pods-KFXPhotoPickerManager_Tests";
-			productReference = 1FC82B9BAF24EF51F65F11DCC6B90690 /* Pods_KFXPhotoPickerManager_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = E9AA1B5A33C7E5460A7B4788A045E084 /* libPods-KFXPhotoPickerManager_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -316,8 +272,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -327,352 +283,298 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D800C37A988002AB841146D29633D600 /* Products */;
+			productRefGroup = 6154099FB329DAFAD0C24895F6BE667C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27324FF4F95852010A9D31E2208411A2 /* KFXPhotoPickerManager */,
-				20FD04621F9EDA5B6B8A1195DFB0B8CC /* Pods-KFXPhotoPickerManager_Example */,
-				B76349688578CF5A507A119A7633B3A6 /* Pods-KFXPhotoPickerManager_Tests */,
+				21779ECF8D4E3755FE80F2FB5F74862B /* KFXPhotoPickerManager */,
+				0B1E054D508DC5A9E11313313E1CBF77 /* Pods-KFXPhotoPickerManager_Example */,
+				C44747D65E1DCE100AA58569CACAD202 /* Pods-KFXPhotoPickerManager_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		59AD34F7C272BE08656855C148C2EF8C /* Sources */ = {
+		44AE17F2C7CB7AAC20F834F731A79D5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19877B55DF6D2F1AD2DD74B44D6221A4 /* Pods-KFXPhotoPickerManager_Example-dummy.m in Sources */,
+				787C28FAACB655A02185E21CF5C1A7C1 /* Pods-KFXPhotoPickerManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A46E83813C10FF6526A202CE42363DFB /* Sources */ = {
+		75DA2321E4CE5B0DFB97210B098E9EEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				932DE72F494D7443C3F80CC0D95FC0A7 /* Pods-KFXPhotoPickerManager_Tests-dummy.m in Sources */,
+				B7981B25BA768A71CE04DC1D67041878 /* Pods-KFXPhotoPickerManager_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2F017AF57EF1725A19D9A5E9E607FFA /* Sources */ = {
+		B868F51A4482DF93EE1AA324A1DF766C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA91710D6E66A34783062953E3E6A683 /* KFXPhotoPickerManager-dummy.m in Sources */,
-				8B01E8D4FC89CF98EA190D8C8AD730F0 /* KFXPhotoPickerManager.m in Sources */,
+				3B97758EA4C9C5EAECF8CB119FAB1A78 /* KFXPhotoPickerManager-dummy.m in Sources */,
+				E2457348E496FAA2A4FC20765076AC51 /* KFXPhotoPickerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4240DB25A3AC6C7C16228BA25CBB1B70 /* PBXTargetDependency */ = {
+		74591C402A472D92B93ED077E9D18656 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KFXPhotoPickerManager;
-			target = 27324FF4F95852010A9D31E2208411A2 /* KFXPhotoPickerManager */;
-			targetProxy = A7D15E072C0A806ECF8916E000580C09 /* PBXContainerItemProxy */;
+			target = 21779ECF8D4E3755FE80F2FB5F74862B /* KFXPhotoPickerManager */;
+			targetProxy = 8371BD2552296C7543C50454263B60DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		437D31416D3B8B0721C7E7C4A5B363F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A3068F54F1EDA7F13A15C3A918313C /* KFXPhotoPickerManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KFXPhotoPickerManager/KFXPhotoPickerManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B402F7FBDB6F0F482814C98D8C7567C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A8763FDEE6AA9C13A225B7A60220D9 /* Pods-KFXPhotoPickerManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AA9658F3A19F5C38F809C6066670588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25FA3C4AB0322CAE5385745267A013AA /* Pods-KFXPhotoPickerManager_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A90A85C8B3E71E566DCEF4D630593BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA7D315C1ADAC63766667F6C4A71F38 /* Pods-KFXPhotoPickerManager_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EF3DC1B6A61098A5D2E33848393E5F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A3068F54F1EDA7F13A15C3A918313C /* KFXPhotoPickerManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KFXPhotoPickerManager/KFXPhotoPickerManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9CAAA70B57C0882EB118316425696BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3BBE646E508A7E4019BE85CDB9C7F06 /* Pods-KFXPhotoPickerManager_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		88052FD22AD7BD5BE5B27B7179CAC55E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB321B1CCA305CFFF039E9F3459C883A /* Pods-KFXPhotoPickerManager_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KFXPhotoPickerManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KFXPhotoPickerManager_Tests/Pods-KFXPhotoPickerManager_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KFXPhotoPickerManager_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ADD1CAF8E1D5904F88D205B3632EB0BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50D2DA75FAC113196261A5E39F7C5C0B /* KFXPhotoPickerManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KFXPhotoPickerManager/KFXPhotoPickerManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KFXPhotoPickerManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KFXPhotoPickerManager/KFXPhotoPickerManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KFXPhotoPickerManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C101C649D061DC338E08297BEF5F4A4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED1D639A0B63B740E962D9B1A561C8E2 /* Pods-KFXPhotoPickerManager_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KFXPhotoPickerManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KFXPhotoPickerManager_Example/Pods-KFXPhotoPickerManager_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KFXPhotoPickerManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D89C397C9F4CA8B9B35B7E7707E18E80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 496F776E2A8AC54D460FE2B31C24B5EC /* Pods-KFXPhotoPickerManager_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KFXPhotoPickerManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KFXPhotoPickerManager_Example/Pods-KFXPhotoPickerManager_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KFXPhotoPickerManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DDC71464AB6A0FD75DD230C6F7A18E70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22B3EDCA115AFA1533124A2EFD221410 /* Pods-KFXPhotoPickerManager_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KFXPhotoPickerManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KFXPhotoPickerManager_Tests/Pods-KFXPhotoPickerManager_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KFXPhotoPickerManager_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E5D69D069F74EF2625F76DD10BFC3A1B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50D2DA75FAC113196261A5E39F7C5C0B /* KFXPhotoPickerManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KFXPhotoPickerManager/KFXPhotoPickerManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KFXPhotoPickerManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KFXPhotoPickerManager/KFXPhotoPickerManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KFXPhotoPickerManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -682,35 +584,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		805A3EFDF6A166C4EC271DDDAA64224A /* Build configuration list for PBXNativeTarget "Pods-KFXPhotoPickerManager_Tests" */ = {
+		6886341BB582A74003399E94399C5B62 /* Build configuration list for PBXNativeTarget "Pods-KFXPhotoPickerManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88052FD22AD7BD5BE5B27B7179CAC55E /* Debug */,
-				DDC71464AB6A0FD75DD230C6F7A18E70 /* Release */,
+				7AA9658F3A19F5C38F809C6066670588 /* Debug */,
+				A90A85C8B3E71E566DCEF4D630593BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDCF5AB63E202F8AB5E88AEE021DC08C /* Build configuration list for PBXNativeTarget "Pods-KFXPhotoPickerManager_Example" */ = {
+		90C5EF058DE9E1F9EE00BBBE3317A15F /* Build configuration list for PBXNativeTarget "KFXPhotoPickerManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C101C649D061DC338E08297BEF5F4A4C /* Debug */,
-				D89C397C9F4CA8B9B35B7E7707E18E80 /* Release */,
+				EF3DC1B6A61098A5D2E33848393E5F46 /* Debug */,
+				437D31416D3B8B0721C7E7C4A5B363F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F013C5398A4737D5B3441CDF02CD7BBD /* Build configuration list for PBXNativeTarget "KFXPhotoPickerManager" */ = {
+		BF137B1E6CCCC0AB3C58702B3793A01B /* Build configuration list for PBXNativeTarget "Pods-KFXPhotoPickerManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADD1CAF8E1D5904F88D205B3632EB0BF /* Debug */,
-				E5D69D069F74EF2625F76DD10BFC3A1B /* Release */,
+				6B402F7FBDB6F0F482814C98D8C7567C /* Debug */,
+				F9CAAA70B57C0882EB118316425696BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

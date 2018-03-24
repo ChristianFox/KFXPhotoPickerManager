@@ -1,0 +1,1 @@
+../../../../../KFXPhotoPickerManager/Classes/KFXPhotoPickerManager.h

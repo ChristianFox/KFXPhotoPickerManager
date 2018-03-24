@@ -1,16 +1,16 @@
 PODS:
-  - KFXPhotoPickerManager (0.1.0)
+  - KFXPhotoPickerManager (0.3.0)
 
 DEPENDENCIES:
   - KFXPhotoPickerManager (from `../`)
 
 EXTERNAL SOURCES:
   KFXPhotoPickerManager:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  KFXPhotoPickerManager: 1692552263f63726d3be9368e6bc0ce420073509
+  KFXPhotoPickerManager: aa848b9534fd92df3eef8092d78806ff7bd5f94d
 
-PODFILE CHECKSUM: e80bbaadede10f2cb9b6ab8697a4949729a9c76e
+PODFILE CHECKSUM: 7f693c4394f4771026e4f9324c25be758e5ac6e5
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.4.0
