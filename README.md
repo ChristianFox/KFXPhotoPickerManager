@@ -1,8 +1,8 @@
-# KFXPhotoPickerManager
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
-[![Version](https://img.shields.io/cocoapods/v/KFXPhotoPickerManager.svg?style=flat)](http://cocoapods.org/pods/KFXPhotoPickerManager)
-[![License](https://img.shields.io/cocoapods/l/KFXPhotoPickerManager.svg?style=flat)](http://cocoapods.org/pods/KFXPhotoPickerManager)
-[![Platform](https://img.shields.io/cocoapods/p/KFXPhotoPickerManager.svg?style=flat)](http://cocoapods.org/pods/KFXPhotoPickerManager)
+# DEPRECATED - This project is no longer maintained or used by the author
+
+# KFXPhotoPickerManager
 
 ## Example
 
